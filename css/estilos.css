@@ -42,3 +42,15 @@ body
 {
     padding: 1em;
 }
+#footer
+{
+    background: rgb(136, 33, 102);
+    color: white;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0;
+    padding: 0.6em;
+    align-content: center;
+    text-align: center;
+    font-size: 15;
+}
