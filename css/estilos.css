@@ -1,5 +1,4 @@
-body
-{
+body {
     color: #333;
     background-color: #333;
     text-align: center;
@@ -9,31 +8,37 @@ body
     padding: 0;
 }
 
-#cabecera
-{
+#cabecera {
     background: #37488b;
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
     color: white;
     font-weight: bold;
     margin: 0;
     padding: 0.6em;
 }
 
-#cabecera #logoCabecera
-{
+#cabecera #logoCabecera {
     width: 30px;
     vertical-align: middle;
+    /* width: 100%; */
+    height: auto;
+
+    @supports(object-fit: cover) {
+        .box img {
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
 }
 
-#cabecera #tagline
-{
+#cabecera #tagline {
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
 }
 
-#container
-{
+#container {
     width: 70%;
     padding: 0;
     text-align: left;
@@ -42,16 +47,28 @@ body
     background-color: #DDD;
 }
 
-#container h1
-{
+#container h1 {
     font-size: 20px;
 }
-#post
-{
+
+#post {
     padding: 1em;
 }
-#footer
-{
+
+#post #imgCuerpoPost {
+    width: 100%;
+    height: auto;
+
+    @supports(object-fit: cover) {
+        .box img {
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+}
+
+#footer {
     background: rgb(136, 33, 102);
     color: white;
     font-weight: lighter;
