@@ -11,6 +11,7 @@ Un blog hecho a partir del curso de [Git y GitHub Profesional](https://platzi.co
 - Etiquetas
 - PULL REQUEST!!!
 - FORKS!!!
+- Git Stash
 
 >Hecho por Platzi Team
 
