@@ -12,4 +12,6 @@ Un blog hecho a partir del curso de [Git y GitHub Profesional](https://platzi.co
 - PULL REQUEST!!!
 - FORKS!!!
 
+>Hecho por Platzi Team
+
 Y muchas cosas más. 🤩
