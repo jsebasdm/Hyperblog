@@ -12,6 +12,7 @@ Un blog hecho a partir del curso de [Git y GitHub Profesional](https://platzi.co
 - PULL REQUEST!!!
 - FORKS!!!
 - Git Stash
+- Git cherry-pick
 
 >Hecho por Platzi Team
 
