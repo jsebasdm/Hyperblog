@@ -14,6 +14,6 @@ Un blog hecho a partir del curso de [Git y GitHub Profesional](https://platzi.co
 - Git Stash
 - Git cherry-pick
 
->Hecho por Platzi Team
-
 Y muchas cosas más. 🤩
+
+>Hecho por Platzi Team
